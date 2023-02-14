@@ -1,9 +1,9 @@
 // Code from https://www.npmjs.com/package/node-fetch
-import fetch, {
+import { fetch,
     Headers,
     Request,
     Response,
-} from 'node-fetch'
+} from 'fetch-undici'
 
 if (!globalThis.fetch) {
     globalThis.fetch = fetch
